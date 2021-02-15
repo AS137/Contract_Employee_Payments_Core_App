@@ -21,6 +21,8 @@ namespace Contract_Employee_Payments_Core_App.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            
+            
             modelBuilder.Entity("Contract_Employee_Payments_Core_App.BusinessLayer.ContractEmployee", b =>
                 {
                     b.Property<int>("Id")
