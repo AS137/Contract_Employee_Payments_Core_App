@@ -73,7 +73,7 @@ namespace Contract_Employee_Payments_Core_App.Migrations
                 name: "IX_TimeRecord_ProjectId",
                 table: "TimeRecord",
                 column: "ProjectId");
-
+//Below code is used to put data from txt file to database
             var sqlFile = Path.Combine(".\\DatabaseScripts", @"data.sql");
 
             migrationBuilder.Sql(File.ReadAllText(sqlFile));
